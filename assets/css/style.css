@@ -25,7 +25,9 @@ h1 {
   color: #fff;
   font-size: 4.5rem;
   width: 35%;
-  margin: 22rem 0 0 6rem;
+  margin: 0 0 3% 6%;
+  position: absolute;
+  bottom: 0;
 }
 
 h2 {
@@ -42,6 +44,7 @@ h2 {
   width: 100vw;
   height: 100vh;
   border: 4px solid #00f;
+  position: relative;
 }
 
 #start article{
@@ -54,28 +57,25 @@ h2 {
   width: 100%;
   height: 100vh;
   border: 4px solid greenyellow;
+  position: relative;
+}
+#screen2 article h2{
+  position: absolute;
+  top: 3%;
 }
 
-#bild3 {
-  height: 100vh;
-  font-family: 'santio';
-  color: #6bc1a3;
-  font-size: 3rem;
-  width: 80%;
-  padding-left: 4rem;
-  text-transform: uppercase;
-}
 
-#bild3 p{
+#screen3 p{
   font-family: 'santio';
   color: #6bc1a3;
   font-size: 3rem;
   font-weight: bold;
   line-height: 160%;
-  width: 80%;
+  width: 85%;
   padding-left: 14rem;
-  
-
+  position: relativ;
+  top: 0;
+  text-transform: uppercase;
 }
 
 #bild4 {
@@ -115,12 +115,13 @@ h2 {
 #bild8 {
 
 }
-#bild8 article{
-  background:  #efefef;
+#beach article{
+  
 }
-#bild8 div{
+#beach div{
+  background:  #efefef;
   background-image: url(../img/see.png);
 }
-#bild8 div img{
+#beach div img{
   width: 100%;
 }
