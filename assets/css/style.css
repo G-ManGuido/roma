@@ -1,0 +1,111 @@
+@font-face {
+  font-family: 'roboto';
+  src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: 'santio';
+  src: url(../fonts/SANTIO/TTF/Santio\ regular.ttf);
+}
+@font-face {
+  font-family: 'tangerine';
+  src: url(../fonts/Tangerine/Tangerine-Regular.ttf);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+background: url(../img/cleo-topper.jpg) no-repeat center/cover fixed;
+}
+
+h1 {
+  font-family: 'santio';
+  color: #fff;
+  font-size: 4.5rem;
+  width: 49%;
+  padding: 22rem 0 0 6rem;
+}
+
+h2 {
+  font-family: 'tangerine';
+  color: goldenrod;
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 75%;
+  letter-spacing: 0.0em;
+  font-stretch: 50%;
+  padding: 10rem 0 0 6rem;
+}
+#bild2 {
+  height: 100vh;
+}
+#bild3 {
+  height: 100vh;
+  font-family: 'santio';
+  color: #6bc1a3;
+  font-size: 3rem;
+  width: 80%;
+  padding-left: 4rem;
+  text-transform: uppercase;
+}
+
+#bild3 p{
+  font-family: 'santio';
+  color: #6bc1a3;
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 160%;
+  width: 80%;
+  padding-left: 14rem;
+  
+
+}
+
+#bild4 {
+
+}
+#bild4 img{
+  width: 15%;
+}
+#bild4 H2{
+  color: goldenrod;
+  font-family: 'santio';
+  font-size: 15rem;
+  text-transform: uppercase;
+}
+
+#bild5 {
+
+}
+#bild5 img{
+  width: 15%;
+}
+
+#bild6 {
+
+}
+#bild6 img{
+  width: 15%;
+}
+
+#bild7 {
+
+}
+#bild7 img{
+  width: 15%;
+}
+
+#bild8 {
+
+}
+#bild8 article{
+  background:  #efefef;
+}
+#bild8 div{
+  background-image: url(../img/see.png);
+}
+#bild8 div img{
+  width: 100%;
+}
