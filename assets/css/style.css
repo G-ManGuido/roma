@@ -156,11 +156,16 @@ line-height: 160%;
 margin: 0 12% 2.5rem 32%;
 }
 
+#beach article {
+  background-color:  #efefef;
+  height: 130vh;
+}
 
-
-#beach article{
-  background:  #efefef;
-  background-image: url(../img/see.png);
+#beach article div{
+  background-color:  #efefef;
+  background: url(../img/see.png) no-repeat center/cover;
+  position: relativ;
+  bottom: 0;
 }
 #beach div{
  
