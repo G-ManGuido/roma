@@ -15,9 +15,34 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-transform: uppercase;
+  scroll-behavior: smooth;
 }
 body{
 background:  linear-gradient(rgba(136, 82, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/cleo-topper.jpg) no-repeat center/cover fixed;
+}
+
+nav{
+  text-align: right;
+  margin: 1rem 4rem 0 0;
+}
+nav img{
+  height: 30px;
+  margin-right: 1rem;
+}
+nav a{
+  font-family: 'roboto';
+  font-size: 1.5rem;
+  color: #fff;
+  text-transform: none;
+  text-decoration: none;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #e7bc0e;
+}
+article{
+  width: 100vw;
+  height: 100vh;
+  position: relative;
 }
 
 h1 {
@@ -39,26 +64,9 @@ h2 {
   letter-spacing: 0.0em;
   font-stretch: 50%;
   margin: 1rem 0 0 6rem;
-}
- article{
-  width: 100vw;
-  height: 100vh;
-  border: 4px solid #00f;
-  position: relative;
+  text-transform: none;
 }
 
-#start article{
-  width: 100vw;
-  height: 100vh;
-  border: 4px solid #f0f;
-}
-
-#screen2  article{
-  width: 100%;
-  height: 100vh;
-  border: 4px solid greenyellow;
-  position: relative;
-}
 #screen2 article h2{
   position: absolute;
   top: 3%;
@@ -75,53 +83,145 @@ h2 {
   padding-left: 14rem;
   position: relativ;
   top: 0;
-  text-transform: uppercase;
 }
 
-#bild4 {
+.undercover{
+background-color: #333;
+color: #fff;
+padding: 4px 0 8px 4px;
 
 }
-#bild4 img{
+
+#workers img{
   width: 15%;
+  margin: 3% 0 8% 10%;
 }
-#bild4 H2{
+#workers H2{
   color: goldenrod;
   font-family: 'santio';
   font-size: 15rem;
-  text-transform: uppercase;
+  margin: 0 0 2% 10%;
+}
+#workers p{
+  color: goldenrod;
+  font-family: 'santio';
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 0 0 0 10%;
 }
 
-#bild5 {
-
-}
-#bild5 img{
+#pay img{
   width: 15%;
+  margin: 3% 0 8% 10%;
+}
+#pay p{
+  color: #cb91b6;
+  font-family: 'santio';
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 0 0 2.5rem 10%;
+}
+#pay H2{
+  color: #cb91b6;
+  font-family: 'santio';
+  font-size: 15rem;
+  margin: 0 0 2% 10%;
 }
 
-#bild6 {
-
-}
-#bild6 img{
+#health img{
   width: 15%;
+  margin: 3% 0 8% 10%;
+}
+#health H2{
+  color: #6bc1a3;
+  font-family: 'santio';
+  font-size: 15rem;
+  margin: 0 0 2% 10%;
+}
+#health p{
+  color: #6bc1a3;
+  font-family: 'santio';
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 0 0 2.5rem 10%;
 }
 
-#bild7 {
 
-}
-#bild7 img{
-  width: 15%;
+#screen7 p{
+color: #7eb8e1;
+font-family: 'santio';
+font-size: 2.8rem;
+font-weight: bold;
+line-height: 160%;
+margin: 0 12% 2.5rem 32%;
 }
 
-#bild8 {
 
-}
+
 #beach article{
-  
-}
-#beach div{
   background:  #efefef;
   background-image: url(../img/see.png);
 }
+#beach div{
+ 
+}
 #beach div img{
   width: 100%;
+}
+
+#screen9 article{
+  background: #000;
+  height: 280vh;
+  border: 2px solid rebeccapurple;
+}
+#screen9 H2{
+  color: #fff;
+  font-family: 'santio';
+  font-size: 8rem;
+  font-weight: bold;
+  line-height: 120%;
+  margin: 50% 12% 10% 10%;
+  }
+
+  #screen9 A{
+   
+    color: #fff;
+    font-family: 'roboto';
+    font-size: 3rem;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border: 3px solid #fff;
+    border-radius: 2px;
+    margin: 55% 0% 10% 10%;
+    text-transform: none;
+  }
+
+  #screen9 A:hover{
+    color: #fff;
+    text-decoration: none;
+    text-transform: none;
+    padding: 1rem 2rem;
+    border-right: 8px solid #fff;
+    border-bottom: 8px solid #fff;
+  }
+  
+
+
+footer{
+  background-color: #000;
+  font-family: 'roboto';
+  font-size: 1.0rem;
+  color: #fff;
+  text-transform: none;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+footer A{
+  text-decoration: none;
+  color: #6bc1a3;
+}
+
+footer A:hover{
+  text-decoration: underline;
+  color: #6bc1a3;
 }
